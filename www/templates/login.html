@@ -1,0 +1,24 @@
+<form id="frmlogin" name="frmLogin" ng-controller="loginCtrl">
+  <div class="list">
+    <label class="item item-input item-floating-label">
+      <span class="input-label">Username</span>
+      <input type="text" placeholder="Username" ng-model="user.name">
+    </label>
+    <!--<label class="item item-input item-floating-label">-->
+      <!--<span class="input-label">Year of birth</span>-->
+      <!--<input type="number" max="9999" placeholder="Year of birth">-->
+    <!--</label>-->
+    <!--<label class="item item-input item-floating-label">-->
+      <!--<span class="input-label">Email</span>-->
+      <!--<input type="email" placeholder="Email">-->
+    <!--</label>-->
+    <label class="item item-input item-floating-label">
+      <span class="input-label">Password</span>
+      <input type="password" placeholder="Password" ng-model="user.pw">
+    </label>
+  </div>
+  <!--<ion-checkbox ng-model="terms">I agree to the terms and conditions</ion-checkbox>-->
+  <button ng-click="test()" class="button button-block button-positive icon-right ion-chevron-right">
+    Go on
+  </button>
+</form>
